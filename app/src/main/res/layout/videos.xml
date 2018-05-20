@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp">
+
+    <ImageView
+        android:id="@+id/videoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="196dp"
+        android:src="@drawable/barbell1"/>
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="logProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Log your Progress"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/aboutSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutSS"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/aboutSS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutSS2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/videoTV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/squat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/videoTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bench_press"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/videoTV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deadlift"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/videoTV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_clean"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/videoTV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chin_up"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

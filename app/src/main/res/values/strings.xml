@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Starting Strength</string>
+
+    <string name="title_item_detail">Workout Plan</string>
+
+    <string name="aboutSS">The Starting Strength Novice Program can be broken down into two workout days, Day A and Day B. The entire body is worked each session.</string>
+
+    <string name="aboutSS2">The goal of this program is to add weight each and every time you lift.  Perform the program on a 3 day per week schedule, on non-consecutive days, i.e. Mon/Wed/Fri, Tues/Thurs/Sat or similar. </string>
+
+    <string name="info">For more information, and a demonstrational video, click on any exercise below.</string>
+
+    <string name="squat"><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">・ Squat</a></string>
+    <string name="bench_press"><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y">・ Bench Press</a></string>
+    <string name="deadlift"><a href="https://www.youtube.com/watch?v=-4qRntuXBSc">・ Deadlift</a></string>
+    <string name="power_clean"><a href="https://www.youtube.com/watch?v=fsEvA5cCrrU">・ Power Clean</a></string>
+    <string name="chin_up"><a href="https://www.youtube.com/watch?v=_71FpEaq-fQ">・ Chin up</a></string>
+</resources>
